@@ -10,7 +10,7 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is the name of your project?",
+    message: "What is the name of your project? (required)",
 	validate: titleInput => {
 		if (titleInput) {
 			return true;
@@ -20,11 +20,12 @@ const questions = [
 		}
 		}
 	},
+
 //   description section
   {
     type: "input",
     name: "description",
-    message: "Please describe your project.",
+    message: "Please describe your project. (required)",
 	validate: descriptionInput => {
 		if (descriptionInput) {
 			return true;
@@ -34,67 +35,88 @@ const questions = [
 		}
 		}
 	},
-// installation instructions section
+
+// installation instructions confirm and section
+  {
+	type: "confirm",
+	name: "installationConfirm",
+	message: "Is there an installation process you'd like to add?",
+  },
   {
     type: "input",
     name: "installation",
     message: "Please describe your installation instructions.",
-	validate: installationInput => {
-		if (installationInput) {
+	when: ({ installationConfirm }) => {
+		if (installationConfirm) {
 			return true;
 		} else {
-			console.log("Please provide installation instructions to continue!")
 			return false;
 		}
 		}
 	},
-	// usage information section
+
+	// usage information confirm and section
+	{
+		type: "confirm",
+		name: "usageConfirm",
+		message: "Would you like to provide instructions on how to use your application?",
+	},
   {
     type: "input",
     name: "usage",
     message: "Please describe your usage information.",
-	validate: usageInput => {
-		if (usageInput) {
+	when: ({usageConfirm}) => {
+		if (usageConfirm) {
 			return true;
 		} else {
-			console.log("Please enter information on how to ue this product to continue!")
 			return false;
 		}
 		}
 	},
+
 	// contribution guidelines section
+	{
+		type: "confirm",
+		name: "contributionConfirm",
+		message: "Would you like to allow other developers to contribute to your project?",
+	},
   {
     type: "input",
     name: "contribution",
     message: "Please describe your contribution guidelines.",
-	validate: contributionInput => {
-		if (contributionInput) {
+	when: ({ contributionConfirm }) => {
+		if (contributionConfirm) {
 			return true;
 		} else {
-			console.log("Please enter information on how to contribute to this project!")
 			return false;
 		}
 		}
 	},
+
 	// test section
+	{
+		type: "confirm",
+		name: "confirmTest",
+		message: "Is testing available for your applicaiton?",
+	},
   {
     type: "input",
     name: "test",
-    message: "Please describe your test instructions (required).",
-  validate: testInput => {
-	if (testInput) {
+    message: "Please describe how to test your application.",
+  when: ({ confirmTest }) => {
+	if (confirmTest) {
 		return true;
 	} else {
-		console.log("Please enter your test instructions for this project to continue!")
 		return false;
 	}
 	}
   },
+
 //   licensing drop down section
   {
     type: "checkbox",
     name: "licensing",
-    message: "Please choose a license for your project from the dropdown menu.",
+    message: "Please choose a license for your project from the dropdown menu. (required)",
 	choices: [],
   validate: licensingCheckBox => {
 	if (licensingCheckBox) {
@@ -105,11 +127,12 @@ const questions = [
 	}
 	}
   },
+
 //   github username section
   {
     type: "input",
     name: "github",
-    message: "What is your GitHub username?",
+    message: "What is your GitHub username? (required)",
 	validate: githubInput => {
 		if(githubInput) {
 			return true;
@@ -119,11 +142,12 @@ const questions = [
 		}
 		}
 	},
+
 //   email input section
   {
     type: "input",
     name: "email",
-    message: "What is your email address?",
+    message: "What is your email address? (required)",
 	validate: emailInput => {
 		if(emailInput) {
 			return true;
@@ -133,7 +157,27 @@ const questions = [
 		}
 		}
 	},
+
+// instructions for contact
+{
+	type: "confirm",
+	name: "confirmContactMemo",
+	message: "Would you like to leave a message with instructions on how to contact you?",
+},
+{
+	type: "input",
+	name: "contactQuestions",
+	message: "Please add a message with instructions on how to contact you.",
+	when: ({confirmContactMemo}) => {
+		if (confirmContactMemo) {
+			return true;
+		} else {
+			return false;
+		}
+		}
+	},
 ];
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
