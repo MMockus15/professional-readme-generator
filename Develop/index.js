@@ -96,15 +96,15 @@ const questions = [
 	// test section
 	{
 		type: "confirm",
-		name: "confirmTest",
+		name: "confirmTesting",
 		message: "Is testing available for your applicaiton?",
 	},
   {
     type: "input",
-    name: "test",
+    name: "testing",
     message: "Please describe how to test your application.",
-  when: ({ confirmTest }) => {
-	if (confirmTest) {
+  when: ({ confirmTesting }) => {
+	if (confirmTesting) {
 		return true;
 	} else {
 		return false;
