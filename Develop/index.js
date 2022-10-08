@@ -117,7 +117,7 @@ const questions = [
     type: "checkbox",
     name: "licensing",
     message: "Please choose a license for your project from the dropdown menu. (required)",
-	choices: [],
+	choices: ["Apache 2.0", "GNU GPL v3", "MIT", "ISC", "None of the above",],
   validate: licensingCheckBox => {
 	if (licensingCheckBox) {
 		return true;
@@ -179,13 +179,22 @@ const questions = [
 ];
 
 
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+	fs.writeFile(fileName, data, (err) => {
+		err ? console.error(err) : console.log("success!")
+	});
+};
+
+
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((data) => {
-    console.log(data);
+  inquirer.prompt(questions)
+  .then((userInput) => {
+    console.log(userInput);
+	writeToFile("README.md", generateMarkdown(userInput));
   });
 }
 
