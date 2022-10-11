@@ -1,4 +1,9 @@
-# marla
+
+  # marla
+
+  ![GNU GPL v3](https://img.shields.io/badge/License-NA-lightgrey)
+
+
   
 
 
@@ -7,13 +12,13 @@
   -[Description](#description)
   -[Installation](#installation)
   -[Usage](#usage)
-  -[Contribution](#contribution)
-  -[Testing](#testing)
+  -[Contribution](#contributing)
+  -[Testing](#tests)
   -[Additional Info](#additional-info)
 
   ## Description:
   ---
-  readme generator
+  marla
 
   ## Installation:
   ---
@@ -31,13 +36,13 @@
   ---
   undefined
 
-  ## License
+  ## License:
   ---
- GNU GPL v3
+  GNU GPL v3()
 
   ## Additional Info:
   ---
-  - GitHub: [mmockus15](https://github.com/mmockus15);
-  - Email: [marlamockus@gmail.com](marlamockus@gmail.com) 
-  - contactQuestions: undefined
+  - GitHub: [marla](https://github.com/marla);
+  - Email: [marla](marla) 
+  - Questions: undefined
   

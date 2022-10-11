@@ -1,13 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  let licensePick = license;
+  let licenseChoice = license;
   let message = "";
   let color = "";
   const label = "License";
   let badgeUrl = "";
 
-  switch (licensePick) {
+  switch (licenseChoice) {
     case "Apache License 2.0":
       message = "Apache_2.0";
       color = "success";
@@ -40,9 +40,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   // users license pick
-  let licensePick = license;
+  let licenseChoice = license;
   // generates users license pick based on URL
-  switch (licensePick) {
+  switch (licenseChoice) {
     case "Apache License 2.0":
       linkURL = `https://choosealicense.com/licenses/apache-2.0/`;
       break;
@@ -64,17 +64,23 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-function renderLicenseSection(license) {
   let licenseBadge = renderLicenseBadge(license); // returns badgeURL
-  let licenseDesc = renderLicenseLink(license); // returns linkURL
-  return [licenseBadge, licenseDesc];
-}
+  let licenseDecision = renderLicenseLink(license); // returns linkURL
+  return [licenseBadge, licenseDecision];
+};
 
-}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data.usage);
-  return `# ${data.title}
+  console.log(data);
+  let licenseSection = renderLicenseSection(data.license);
+  
+  return `
+  # ${data.title}
+
+  ![${data.license}](${licenseSection[0]})
+
+
   
 
 
@@ -83,8 +89,8 @@ function generateMarkdown(data) {
   -[Description](#description)
   -[Installation](#installation)
   -[Usage](#usage)
-  -[Contribution](#contribution)
-  -[Testing](#testing)
+  -[Contribution](#contributing)
+  -[Testing](#tests)
   -[Additional Info](#additional-info)
 
   ## Description:
@@ -109,13 +115,13 @@ function generateMarkdown(data) {
 
   ## License:
   ---
- ${data.licensing}
+  ${data.license}(${licenseSection[1]})
 
   ## Additional Info:
   ---
   - GitHub: [${data.github}](https://github.com/${data.github});
   - Email: [${data.email}](${data.email}) 
-  - Contact: ${data.contactQuestions}
+  - Questions: ${data.contactQuestions}
   `;
 }
 

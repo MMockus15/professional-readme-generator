@@ -115,7 +115,7 @@ const questions = [
 //   licensing drop down section
   {
     type: "checkbox",
-    name: "licensing",
+    name: "license",
     message: "Please choose a license for your project from the dropdown menu. (required)",
 	choices: ["Apache 2.0", "GNU GPL v3", "MIT", "ISC", "None of the above",],
   validate: licensingCheckBox => {
