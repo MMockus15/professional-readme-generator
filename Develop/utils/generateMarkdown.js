@@ -38,9 +38,10 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
+  console.log(data.usage);
   return `# ${data.title}
-  ![${data.license}](${licenseSection[0]})
+  
+
 
   ##Table of Contents
   ---
@@ -55,7 +56,7 @@ function generateMarkdown(data) {
   ---
   ${data.description}
 
-  ## Instalation:
+  ## Installation:
   ---
   ${data.installation}
 
@@ -73,7 +74,7 @@ function generateMarkdown(data) {
 
   ## Licensing
   ---
-  [Click here for more information about the ${data.license} license](${licenseSection[1]})
+  [Click here for more information about the ${data.licenseing} license](${licenseSection[1]})
 
   ## Additional Info:
   ---

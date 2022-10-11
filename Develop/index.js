@@ -37,11 +37,11 @@ const questions = [
 	},
 
 // installation instructions confirm and section
-  {
-	type: "confirm",
-	name: "installationConfirm",
-	message: "Is there an installation process you'd like to add?",
-  },
+//   {
+// 	type: "confirm",
+// 	name: "installationConfirm",
+// 	message: "Is there an installation process you'd like to add?",
+//   },
   {
     type: "input",
     name: "installation",
@@ -56,11 +56,11 @@ const questions = [
 	},
 
 	// usage information confirm and section
-	{
-		type: "confirm",
-		name: "usageConfirm",
-		message: "Would you like to provide instructions on how to use your application?",
-	},
+	// {
+	// 	type: "confirm",
+	// 	name: "usageConfirm",
+	// 	message: "Would you like to provide instructions on how to use your application?",
+	// },
   {
     type: "input",
     name: "usage",
@@ -75,11 +75,11 @@ const questions = [
 	},
 
 	// contribution guidelines section
-	{
-		type: "confirm",
-		name: "contributionConfirm",
-		message: "Would you like to allow other developers to contribute to your project?",
-	},
+	// {
+	// 	type: "confirm",
+	// 	name: "contributionConfirm",
+	// 	message: "Would you like to allow other developers to contribute to your project?",
+	// },
   {
     type: "input",
     name: "contribution",
@@ -94,11 +94,11 @@ const questions = [
 	},
 
 	// test section
-	{
-		type: "confirm",
-		name: "confirmTesting",
-		message: "Is testing available for your applicaiton?",
-	},
+	// {
+	// 	type: "confirm",
+	// 	name: "confirmTesting",
+	// 	message: "Is testing available for your applicaiton?",
+	// },
   {
     type: "input",
     name: "testing",
@@ -159,11 +159,11 @@ const questions = [
 	},
 
 // instructions for contact
-{
-	type: "confirm",
-	name: "confirmContactMemo",
-	message: "Would you like to leave a message with instructions on how to contact you?",
-},
+// {
+// 	type: "confirm",
+// 	name: "confirmContactMemo",
+// 	message: "Would you like to leave a message with instructions on how to contact you?",
+// },
 {
 	type: "input",
 	name: "contactQuestions",
