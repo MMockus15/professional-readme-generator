@@ -1,4 +1,4 @@
-# meow
+# marla
   
 
 
@@ -13,7 +13,7 @@
 
   ## Description:
   ---
-  i love cats
+  readme generator
 
   ## Installation:
   ---
@@ -23,20 +23,21 @@
   ---
   undefined
 
-  ## Contribution:
+  ## Contributing:
   ---
   undefined
 
-  ## Testing:
+  ## Tests:
   ---
   undefined
 
-  ## Licensing
+  ## License
   ---
- Apache 2.0
+ GNU GPL v3
 
   ## Additional Info:
   ---
-  - GitHub: [marla](https://github.com/marla);
-  - Email: [marla](marla) 
+  - GitHub: [mmockus15](https://github.com/mmockus15);
+  - Email: [marlamockus@gmail.com](marlamockus@gmail.com) 
+  - contactQuestions: undefined
   

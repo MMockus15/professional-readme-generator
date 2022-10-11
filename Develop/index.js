@@ -82,7 +82,7 @@ const questions = [
 	},
   {
     type: "input",
-    name: "contribution",
+    name: "contributing",
     message: "Please describe your contribution guidelines.",
 	when: ({ contributionConfirm }) => {
 		if (contributionConfirm) {
@@ -101,7 +101,7 @@ const questions = [
 	},
   {
     type: "input",
-    name: "testing",
+    name: "tests",
     message: "Please describe how to test your application.",
   when: ({ confirmTesting }) => {
 	if (confirmTesting) {

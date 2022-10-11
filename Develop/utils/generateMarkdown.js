@@ -99,15 +99,15 @@ function generateMarkdown(data) {
   ---
   ${data.usage}
 
-  ## Contribution:
+  ## Contributing:
   ---
   ${data.contribution}
 
-  ## Testing:
+  ## Tests:
   ---
   ${data.testing}
 
-  ## Licensing
+  ## License:
   ---
  ${data.licensing}
 
@@ -115,6 +115,7 @@ function generateMarkdown(data) {
   ---
   - GitHub: [${data.github}](https://github.com/${data.github});
   - Email: [${data.email}](${data.email}) 
+  - Contact: ${data.contactQuestions}
   `;
 }
 
