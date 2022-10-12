@@ -2,31 +2,24 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let licenseChoice = license;
-  let message = "";
-  let color = "";
   const label = "License";
-  let badgeURL = "";
 
-  switch (licenseChoice) {
-    case "Apache License 2.0":
-      message = "Apache_2.0";
-      color = "success";
-      badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
+  switch (licenseChoice[0]) {
+    case "Apache 2.0":
+      badgeURL = `https://img.shields.io/badge/License-Apache_2.0-success`
       break;
     case "GNU GPL v3":
-      message = "GPL_v3";
-      color = "blue";
-      badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
+      badgeURL = `https://img.shields.io/badge/License-GNU_v3-blue`
       break;
     case "MIT":
       message = "MIT";
       color = "yellow";
-      badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
+      badgeURL = `https://img.shields.io/badge/License-MIT-yellow`;
       break;
     case "ISC":
       message = "ISC";
       color = "blue";
-      badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
+      badgeURL = `https://img.shields.io/badge/License-ISC-blue`;
       break;
     default:
       message = "NA";
@@ -43,7 +36,7 @@ function renderLicenseLink(license) {
   let licenseChoice = license;
   // generates users license pick based on URL
   switch (licenseChoice) {
-    case "Apache License 2.0":
+    case "Apache 2.0":
       linkURL = `https://choosealicense.com/licenses/apache-2.0/`;
       break;
     case "GNU GPL v3":

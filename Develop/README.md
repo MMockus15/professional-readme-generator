@@ -1,7 +1,7 @@
 
   # mar
 
-  ![MIT](https://img.shields.io/badge/License-NA-lightgrey)
+  ![MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 
   
@@ -42,7 +42,7 @@
 
   ## Additional Info:
   ---
-  - GitHub: [mar](https://github.com/mar);
+  - GitHub: [mar](https://github.com/mar)
   - Email: [mar](mar) 
   - Questions: undefined
   
