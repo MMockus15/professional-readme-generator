@@ -1,7 +1,7 @@
 
-  # Professional README Generator
+  # m
 
-  ![MIT](https://img.shields.io/badge/License-MIT-yellow)
+  ![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-success)
 
 
   
@@ -18,15 +18,15 @@
 
   ## Description:
   ---
-  This is an app designed to create a high quality, professional README.md. It allows users to enter in information when prompted in the terminal. The generated file will output the Title, Description, Table of Contents, Installation information, Usage, License, Contributions, Tests, and Quetions. To create this project I used node.js by downloading the Inquirer Package. 
+  m
 
   ## Installation:
   ---
-  To install clone the index.js file and use in your terminal, preferably in VS Code.
+  djgsdlgh
 
   ## Usage:
   ---
-  To use this application type node index.js in your terminal, and follow the prompts adding in required inputs.
+  kdjfksjdfh
 
   ## Contributing:
   ---
@@ -38,11 +38,11 @@
 
   ## License:
   ---
-  MIT license]()
+  Apache 2.0 license](https://choosealicense.com/licenses/apache-2.0/)
 
   ## Questions?:
   ---
-  - GitHub: [MMockus15](https://github.com/MMockus15)
-  - Email: [marlamockus@gmail.com](marlamockus@gmail.com) 
-  - Additional Info: undefined
+  - GitHub: [dlg](https://github.com/dlg)
+  - Email: [j](j) 
+  - Additional Info: dksjhf
   

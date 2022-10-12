@@ -35,7 +35,7 @@ function renderLicenseLink(license) {
   // users license pick
   let licenseChoice = license;
   // generates users license pick based on URL
-  switch (licenseChoice) {
+  switch (licenseChoice[0]) {
     case "Apache 2.0":
       linkURL = `https://choosealicense.com/licenses/apache-2.0/`;
       break;
@@ -59,6 +59,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   let licenseBadge = renderLicenseBadge(license); // returns badgeURL
   let licenseDecision = renderLicenseLink(license); // returns linkURL
+  console.log(licenseDecision)
   return [licenseBadge, licenseDecision];
 };
 
@@ -109,7 +110,7 @@ function generateMarkdown(data) {
 
   ## License:
   ---
-  ${data.license} license](${licenseSection[1]})
+  [click here to view license info]${data.license}(${licenseSection[1]})
 
   ## Questions?:
   ---
