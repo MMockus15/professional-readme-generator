@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
   let message = "";
   let color = "";
   const label = "License";
-  let badgeUrl = "";
+  let badgeURL = "";
 
   switch (licenseChoice) {
     case "Apache License 2.0":
@@ -86,12 +86,12 @@ function generateMarkdown(data) {
 
   ##Table of Contents
   ---
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Contribution](#contributing)
-  -[Testing](#tests)
-  -[Additional Info](#additional-info)
+  1. [Description](#description)
+  1. [Installation](#installation)
+  1. [Usage](#usage)
+  1. [Contribution](#contributing)
+  1. [Testing](#tests)
+  1. [Additional Info](#additional-info)
 
   ## Description:
   ---
@@ -119,7 +119,7 @@ function generateMarkdown(data) {
 
   ## Additional Info:
   ---
-  - GitHub: [${data.github}](https://github.com/${data.github});
+  - GitHub: [${data.github}](https://github.com/${data.github})
   - Email: [${data.email}](${data.email}) 
   - Questions: ${data.contactQuestions}
   `;

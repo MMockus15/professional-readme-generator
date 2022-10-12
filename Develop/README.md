@@ -1,7 +1,7 @@
 
-  # marla
+  # mar
 
-  ![GNU GPL v3](https://img.shields.io/badge/License-NA-lightgrey)
+  ![MIT](https://img.shields.io/badge/License-NA-lightgrey)
 
 
   
@@ -9,16 +9,16 @@
 
   ##Table of Contents
   ---
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Contribution](#contributing)
-  -[Testing](#tests)
-  -[Additional Info](#additional-info)
+  1. [Description](#description)
+  1. [Installation](#installation)
+  1. [Usage](#usage)
+  1. [Contribution](#contributing)
+  1. [Testing](#tests)
+  1. [Additional Info](#additional-info)
 
   ## Description:
   ---
-  marla
+  mar
 
   ## Installation:
   ---
@@ -38,11 +38,11 @@
 
   ## License:
   ---
-  GNU GPL v3()
+  MIT()
 
   ## Additional Info:
   ---
-  - GitHub: [marla](https://github.com/marla);
-  - Email: [marla](marla) 
+  - GitHub: [mar](https://github.com/mar);
+  - Email: [mar](mar) 
   - Questions: undefined
   
