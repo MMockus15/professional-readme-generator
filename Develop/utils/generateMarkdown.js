@@ -111,11 +111,11 @@ function generateMarkdown(data) {
   ---
   ${data.license} license](${licenseSection[1]})
 
-  ## Additional Info:
+  ## Questions?:
   ---
   - GitHub: [${data.github}](https://github.com/${data.github})
   - Email: [${data.email}](${data.email}) 
-  - Questions: ${data.contactQuestions}
+  - Additional Info: ${data.contactQuestions}
   `;
 }
 

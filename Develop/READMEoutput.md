@@ -1,7 +1,7 @@
 
-  # Marlas Readme
+  # Professional README Generator
 
-  ![ISC](https://img.shields.io/badge/License-ISC-blue)
+  ![MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 
   
@@ -18,15 +18,15 @@
 
   ## Description:
   ---
-  marla
+  This is an app designed to create a high quality, professional README.md. It allows users to enter in information when prompted in the terminal. The generated file will output the Title, Description, Table of Contents, Installation information, Usage, License, Contributions, Tests, and Quetions. To create this project I used node.js by downloading the Inquirer Package. 
 
   ## Installation:
   ---
-  undefined
+  To install clone the index.js file and use in your terminal, preferably in VS Code.
 
   ## Usage:
   ---
-  undefined
+  To use this application type node index.js in your terminal, and follow the prompts adding in required inputs.
 
   ## Contributing:
   ---
@@ -38,11 +38,11 @@
 
   ## License:
   ---
-  ISC license]()
+  MIT license]()
 
-  ## Additional Info:
+  ## Questions?:
   ---
-  - GitHub: [mar](https://github.com/mar)
-  - Email: [mar](mar) 
-  - Questions: undefined
+  - GitHub: [MMockus15](https://github.com/MMockus15)
+  - Email: [marlamockus@gmail.com](marlamockus@gmail.com) 
+  - Additional Info: undefined
   
