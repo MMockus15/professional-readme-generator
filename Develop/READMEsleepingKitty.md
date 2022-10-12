@@ -3,9 +3,6 @@
   ![MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 
-  
-
-
   ##Table of Contents
   ---
   1. [Description](#description)
@@ -21,7 +18,7 @@
 
   ## Installation:
   ---
-  Ru the index.html in your browser of choice.
+  Run the index.html in your browser of choice.
 
   ## Usage:
   ---
@@ -29,18 +26,18 @@
 
   ## Contributing:
   ---
-  undefined
+  Yes, you can contribute by adding more baskets your cats love.
 
   ## Tests:
   ---
-  undefined
+  To test, open kitty.text.js and run test in command line.
 
   ## License:
   ---
-  MIT license]()
+  [MIT license](https://choosealicense.com/licenses/mit/)
 
   ## Questions?:
   ---
   - GitHub: [MMockus15](https://github.com/MMockus15)
   - Email: [marlamockus@gmail.com](marlamockus@gmail.com) 
-  - Additional Info: Please email the email provided above with any additional quetions.
+  - Additional Info: Please send message to the email provided above with any additional quetions.

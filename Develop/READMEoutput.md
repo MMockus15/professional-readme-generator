@@ -1,5 +1,5 @@
 
-  # m
+  # README generator
 
   ![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-success)
 
@@ -18,15 +18,15 @@
 
   ## Description:
   ---
-  m
+  helps generate readme.md files
 
   ## Installation:
   ---
-  djgsdlgh
+  install with 
 
   ## Usage:
   ---
-  kdjfksjdfh
+  undefined
 
   ## Contributing:
   ---
@@ -38,11 +38,11 @@
 
   ## License:
   ---
-  Apache 2.0 license](https://choosealicense.com/licenses/apache-2.0/)
+  [click here to view license info]Apache 2.0(https://choosealicense.com/licenses/apache-2.0/)
 
   ## Questions?:
   ---
-  - GitHub: [dlg](https://github.com/dlg)
-  - Email: [j](j) 
-  - Additional Info: dksjhf
+  - GitHub: [mmockus15](https://github.com/mmockus15)
+  - Email: [marlamockus@gmail.com](marlamockus@gmail.com) 
+  - Additional Info: undefined
   
