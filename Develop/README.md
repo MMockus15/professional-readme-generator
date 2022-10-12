@@ -1,7 +1,7 @@
 
-  # mar
+  # m
 
-  ![MIT](https://img.shields.io/badge/License-MIT-yellow)
+  ![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-success)
 
 
   
@@ -18,7 +18,7 @@
 
   ## Description:
   ---
-  mar
+  m
 
   ## Installation:
   ---
@@ -38,11 +38,11 @@
 
   ## License:
   ---
-  MIT()
+  Apache 2.0(https://img.shields.io/badge/License-Apache_2.0-success,)
 
   ## Additional Info:
   ---
-  - GitHub: [mar](https://github.com/mar)
-  - Email: [mar](mar) 
+  - GitHub: [m](https://github.com/m)
+  - Email: [m](m) 
   - Questions: undefined
   

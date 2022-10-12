@@ -68,6 +68,7 @@ function generateMarkdown(data) {
   console.log(data);
   let licenseSection = renderLicenseSection(data.license);
   
+  
   return `
   # ${data.title}
 
@@ -108,7 +109,7 @@ function generateMarkdown(data) {
 
   ## License:
   ---
-  ${data.license}(${licenseSection[1]})
+  ${data.license}(${licenseSection})
 
   ## Additional Info:
   ---
