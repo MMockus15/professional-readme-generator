@@ -109,7 +109,7 @@ function generateMarkdown(data) {
 
   ## License:
   ---
-  ${data.license}(${licenseSection})
+  ${data.license} license](${licenseSection[1]})
 
   ## Additional Info:
   ---

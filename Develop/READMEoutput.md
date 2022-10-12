@@ -1,7 +1,7 @@
 
-  # m
+  # Marlas Readme
 
-  ![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-success)
+  ![ISC](https://img.shields.io/badge/License-ISC-blue)
 
 
   
@@ -18,7 +18,7 @@
 
   ## Description:
   ---
-  m
+  marla
 
   ## Installation:
   ---
@@ -38,11 +38,11 @@
 
   ## License:
   ---
-  Apache 2.0(https://img.shields.io/badge/License-Apache_2.0-success,)
+  ISC license]()
 
   ## Additional Info:
   ---
-  - GitHub: [m](https://github.com/m)
-  - Email: [m](m) 
+  - GitHub: [mar](https://github.com/mar)
+  - Email: [mar](mar) 
   - Questions: undefined
   

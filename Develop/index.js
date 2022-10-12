@@ -194,7 +194,7 @@ function init() {
   inquirer.prompt(questions)
   .then((userInput) => {
     console.log(userInput);
-	writeToFile("./README.md", generateMarkdown(userInput));
+	writeToFile("./READMEoutput.md", generateMarkdown(userInput));
   });
 }
 
