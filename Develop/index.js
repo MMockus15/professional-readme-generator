@@ -114,10 +114,10 @@ const questions = [
 
 //   licensing drop down section
   {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "Please choose a license for your project from the dropdown menu. (required, use arrow keys and space bar to select license.)",
-	choices: ["Apache 2.0", "GNU GPL v3", "MIT", "ISC", "None of the above",],
+	choices: ["Apache 2.0", "GNU GPL v3", "MIT", "ISC", "None of the above"],
   validate: licensingCheckBox => {
 	if (licensingCheckBox) {
 		return true;

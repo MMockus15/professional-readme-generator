@@ -102,15 +102,15 @@ function generateMarkdown(data) {
 
   ## Contributing:
   ---
-  ${data.contribution}
+  ${data.contributing}
 
   ## Tests:
   ---
-  ${data.testing}
+  ${data.tests}
 
   ## License:
   ---
-  [click here to view license info]${data.license}(${licenseSection[1]})
+  [click here to view license info](${data.license})(${licenseSection[1]})
 
   ## Questions?:
   ---
